@@ -5,7 +5,9 @@
 # config.example.json to config.json and edit it locally instead.
 config.json
 
-# Session state (contains live auth cookies — never commit this)
+# Session state (contains live auth cookies once you log in — never
+# commit this). Only the placeholder data/storage_state.example.json
+# is meant to be tracked in git.
 data/storage_state.json
 
 # Local database
