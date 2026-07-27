@@ -1,0 +1,21 @@
+# Environment & secrets
+.env
+
+# Local config (may contain your own proxy host/credentials) — copy
+# config.example.json to config.json and edit it locally instead.
+config.json
+
+# Session state (contains live auth cookies — never commit this)
+data/storage_state.json
+
+# Local database
+data/tweets.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store

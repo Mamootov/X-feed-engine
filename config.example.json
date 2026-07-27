@@ -1,0 +1,50 @@
+{
+    "paths": {
+        "env_file": ".env",
+        "storage_state": "data/storage_state.json",
+        "db_path": "data/tweets.db"
+    },
+    "proxy": {
+        "enabled": false,
+        "server": "",
+        "username": "",
+        "password": ""
+    },
+    "scraper": {
+        "mode": "both",
+        "max_tweets_per_user": 10,
+        "time_window_hours": 48,
+        "target_users": [
+            "elonmusk",
+            "realDonaldTrump",
+            "saylor",
+            "cz_binance",
+            "VitalikButerin",
+            "CryptoHayes",
+            "brian_armstrong",
+            "CoinDesk",
+            "Cointelegraph",
+            "WuBlockchain",
+            "TheBlock__",
+            "WatcherGuru",
+            "db_news",
+            "lookonchain",
+            "spotonchain",
+            "glassnode",
+            "ArkhamIntel",
+            "nansen_ai",
+            "SECGov",
+            "CFTC",
+            "BlackRock",
+            "fidelity",
+            "Grayscale",
+            "PeckShieldAlert",
+            "CertiKAlert",
+            "zachxbt",
+            "binance",
+            "coinbase",
+            "krakenfx",
+            "Bybit_Official"
+        ]
+    }
+}
